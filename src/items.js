@@ -7,6 +7,9 @@ import audio1 from "../media/audio/1.mp3"
 import audio2 from "../media/audio/2.mp3"
 import audio3 from "../media/audio/3.mp3"
 
+import video1 from "../media/video/1.mp4"
+import video2 from "../media/video/2.mp4"
+
 export default [
     {
         resourse: image1,
@@ -42,5 +45,15 @@ export default [
         resourse: audio3,
         type: 'audio',
         title: 'Аудио 3'
+    },
+    {
+        resourse: video1,
+        type: 'video',
+        title: 'Видео 1'
+    },
+    {
+        resourse: video2,
+        type: 'video',
+        title: 'Видео 2'
     }
 ]

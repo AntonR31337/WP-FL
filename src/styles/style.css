@@ -38,9 +38,16 @@ body {
 
 .gallery-item__image {
   width: 100%;
+  max-width: 330px;
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.gallery-item__audio {
+  width: 100%;
+  max-width: 330px;
+  height: 250px;
 }
 
 .gallery-item__title {

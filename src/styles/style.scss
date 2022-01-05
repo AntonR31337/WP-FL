@@ -27,8 +27,14 @@ body {
 }
 .gallery-item__image {
     width: 100%;
+    max-width: 330px;
     height: 250px;
     object-fit: cover;
+}
+.gallery-item__audio {
+    width: 100%;
+    max-width: 330px;
+    height: 250px;
 }
 .gallery-item__title {
     padding: 4px 0;
