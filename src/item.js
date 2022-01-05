@@ -2,6 +2,8 @@ export function drawGalleryItem(item) {
     const itemElement = document.createElement('div')
     itemElement.classList = "gallery-item"
 
+    const resourceWrapElement = document.childElement('div')
+
     const imgElement = document.createElement('img')
     imgElement.classList = "gallery-item__image"
     imgElement.src = item.resource
